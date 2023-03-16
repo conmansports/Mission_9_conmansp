@@ -20,5 +20,6 @@ namespace Mission_9_conmansp.Models
         }
 
         public DbSet<Book> Books { get; set; }
+        public DbSet<Checkout> Checkouts { get; set; }
     }
 }
